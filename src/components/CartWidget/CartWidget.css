@@ -1,0 +1,19 @@
+.CartWidget {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.CartIcon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.CartCount {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+}

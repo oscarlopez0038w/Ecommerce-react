@@ -1,0 +1,30 @@
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.Controls {
+    display: flex;
+    align-items: center;
+}
+
+.Button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.Number {
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+.Button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}

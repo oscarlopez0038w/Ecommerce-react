@@ -1,0 +1,11 @@
+.Container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Greeting {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
