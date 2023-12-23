@@ -1,38 +1,42 @@
 .NavBar {
+    background-color: #2c3e50;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: #f5f5f5; /* Color de fondo más suave */
-    color: #333; /* Color del texto principal */
-}
-.NavBar a {
-    text-decoration: none;
-}
-.NavBar h3 {
+  }
+  
+  h3 {
+    color: #000;
     margin: 0;
-    font-size: 1.5rem;
-    color: #492a2a; /* Color del texto del encabezado */
-    
-}
-
-.Categories {
+  }
+  
+  .Categories {
     display: flex;
-}
-
-.Option, .ActiveOption {
+  }
+  
+  .Option {
+    color: #ecf0f1;
     text-decoration: none;
-    color: #555; /* Color del texto de las opciones */
-    margin-right: 20px;
-    font-size: 1rem;
-    transition: color 0.3s ease; /* Agregando transición para un cambio suave de color */
-}
-
-.Option:hover {
-    color: #007bff; /* Color al pasar el mouse sobre las opciones */
-}
-
-.ActiveOption {
-    border-bottom: 2px solid #007bff; /* Línea inferior para la opción activa */
-    color: #007bff; /* Color del texto de la opción activa */
-}
+    margin: 0 10px;
+  }
+  
+  .ActiveOption {
+    color: #71db34;
+    font-weight: bold;
+  }
+  
+  .CartWidget {
+    display: flex;
+    align-items: center;
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .CartQuantity {
+    margin: 5px;
+  }
+  .CartWidget:hover {
+    color: #71db34;
+  }
